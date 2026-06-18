@@ -40,7 +40,7 @@
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": true,
+    "enabled": false,
     "circle-walk": {
       "enabled": true,
       "radius": 4,
@@ -57,29 +57,8 @@
   },
   "modules": {
     "avoidMobs": true,
-    "combat": true,
+    "combat": false,
     "beds": false,
     "chat": true,
-    "console-commands": true
+    "console-commands": false
   },
-  "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
-  },
-  "beds": {
-    "pick-up-day": false,
-    "place-night": false
-  },
-  "discord": {
-    "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
-    "events": {
-      "connect": true,
-      "disconnect": true,
-      "chat": false
-    }
-  },
-  "chat": {
-    "respond": true
-  }
-}
